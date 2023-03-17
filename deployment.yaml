@@ -19,5 +19,3 @@ spec:
         image: naveen9182/dotnetapp:latest
         ports:
         - containerPort: 80
-      imagePullSecrets:
-      - name: pvt-registry
