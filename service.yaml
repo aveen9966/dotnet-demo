@@ -4,7 +4,7 @@ metadata:
   name: dotnet-demo-service
 spec:
   selector:    
-    app: dotnet-app
+    app: dotnet
   type: LoadBalancer
   ports:  
   - name: http
