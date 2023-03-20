@@ -4,7 +4,7 @@ metadata:
   name: dotnet-ingress
 spec:
   rules:
-  - host: 13.233.110.56
+  - host: host.example.com
     http:
       paths:
       - pathType: Prefix
