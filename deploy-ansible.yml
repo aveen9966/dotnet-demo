@@ -6,8 +6,8 @@
   tasks:
   - name: Deploy Pod
     shell: |
-      /usr/local/bin/kubectl apply -f deployment.yml
+      /usr/local/bin/kubectl apply -f /var/lib/jenkins/workspace/donnet-app/deployment.yml
 
   - name: Deploy Service
     shell: |
-      /usr/local/bin/kubectl apply -f service.yml
+      /usr/local/bin/kubectl apply -f /var/lib/jenkins/workspace/donnet-app/service.yml
