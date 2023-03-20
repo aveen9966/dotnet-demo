@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:    
     app: dotnet
-  type: NodePort
+  type: LoadBalancer
   ports:  
   - name: http
     port: 80
